@@ -1,0 +1,1 @@
+insert into weather select * from weather_interim;

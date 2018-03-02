@@ -1,0 +1,1 @@
+flume-ng agent -n hw --conf conf --conf-file flume.conf

@@ -1,0 +1,1 @@
+One map reduce job is started for creating temporary table, and one map reduce job for selecting expected result from this table. So the answer is 2 MapReduce Jobs.

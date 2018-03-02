@@ -1,0 +1,1 @@
+# Several tasks to get experience with Hive, Sqoop and Flume
