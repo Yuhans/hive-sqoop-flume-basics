@@ -13,3 +13,5 @@ Sqoop:
 ###	Solution:
 Prepare MySQL with script from sqoop-mysql-prepare.sql (it creates db and tables).
 Then execute shell script sqoop-start-export.sh (it starts sqoop job to exporting from local folder dataset into HDFS)
+You can try to change number of mappers by providing -m 'number' flag to speed up export process. It depends on your machine, etc.
+I tried export with 3 and 4 mappers, 4 mappers showed increasing of speed by 20 sec.
