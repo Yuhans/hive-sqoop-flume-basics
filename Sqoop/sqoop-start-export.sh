@@ -1,1 +1,1 @@
-sqoop export --connect jdbc:mysql://sandbox-hdp/hortonworks.com/sqoopTask --username root --password hadoop --table weather_interim -m 3 --export-dir /user/root/input/sqoop/dataset
+sqoop export --connect jdbc:mysql://sandbox-hdp.hortonworks.com/sqoopTask --username root --password hadoop --table weather --staging-table weather_interim --clear-staging-table --export-dir /user/root/input/sqoop/dataset
